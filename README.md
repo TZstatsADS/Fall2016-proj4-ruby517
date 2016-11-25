@@ -23,6 +23,15 @@ For each piece of music, we have a list of 15 features and the most important th
 After building the feature matrix for 2350 songs, I tried to classify them to 20 categories using k-means clustering. Then I 
 visulize pairs of them to see the relationship between features and want to decide if some features are highly correlated to be deleted. 
 ![screenshot](https://github.com/TZstatsADS/Fall2016-proj4-ruby517/blob/master/figs/clustering.png)
+From this plot we can clearly see that segment length are well seperated among each clusters, which means that length is a significant feature for us to distinguish different songs. And some features such as min, they are somehow highly correlated among clusters, which means this is not a significant feature and we may delete it. 
+
+-Topic Modelling and Random Forest
+For the lyrics, I applied LDA to classify it to 20 topics and assign a topic label to each song in the feature matrix. Then, I use random forest to build a model for connection between features and topic label. And this is the association rule for my lyric prediction. This is a plot for the top words for one topic.
+![screenshot](https://github.com/TZstatsADS/Fall2016-proj4-ruby517/blob/master/figs/frequency.png)
+
+
+
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
