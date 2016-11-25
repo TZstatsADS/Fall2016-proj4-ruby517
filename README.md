@@ -27,7 +27,7 @@ From this plot we can clearly see that segment length are well seperated among e
 
 -Topic Modelling and Random Forest
 For the lyrics, I applied LDA to classify it to 20 topics and assign a topic label to each song in the feature matrix. Then, I use random forest to build a model for connection between features and topic label. And this is the association rule for my lyric prediction. This is a plot for the top words for one topic.
-![screenshot](https://github.com/TZstatsADS/Fall2016-proj4-ruby517/blob/master/figs/picture1.png)
+![screenshot](https://github.com/TZstatsADS/Fall2016-proj4-ruby517/blob/master/figs/Picture1.png)
 
 
 
